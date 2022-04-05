@@ -54,6 +54,65 @@ h2 {
 
 }
 
+.button_nav {
+    width: 150px;
+}
+
+.button_secondary {
+    background:var(--color-primary);
+    color: var(--color-bg-primary);
+}
+
+/*Header*/
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 32px 0;
+
+}
+
+.header_secondary {
+    background-color: var(--color-text-primary);
+    position: initial;
+}
+
+.header__inner{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.header__logo {
+    width: 140px;
+
+}
+
+
+
+.header__nav-link {
+    color: var(--color-secondary);
+    letter-spacing: 1px;
+    margin-right: 48px;
+}
+
+.header__nav-button {
+    margin-right: 24px;
+
+}
+
+.header__nav-button:last-child {
+    margin-right: 0px;
+}
+
 /*Landing Section*/
 
 .landing {
